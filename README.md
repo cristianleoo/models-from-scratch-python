@@ -5,7 +5,7 @@ The purpose of this repo is for educational purposes. While the efficiency of th
 Every subfolder contains a file demo.ipynb, which contains a practical application of the algorithm. It loads a dataset, perform a basic EDA, and fits the model.
 Moreover, I published an article explaining in granular details every model present in this repo. I highly recommend reading them, as I go through on how the model works, the math behind the model, its benefits, assumptions, and cons, and most importantly, a breakdown and explanation of the code to build it.
 
-##**Articles**
+## **Articles**
 - AdaBoost: https://medium.com/stackademic/building-adaboost-from-scratch-in-python-18b79061fe01
 - CART: https://medium.com/@cristianleo120/classification-and-regression-trees-cart-implementation-from-scratch-in-python-89efa31ad9a6
 - ID3 - Decision Tree: https://medium.com/@cristianleo120/master-decision-trees-and-building-them-from-scratch-in-python-af173dafb836
