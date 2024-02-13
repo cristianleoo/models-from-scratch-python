@@ -7,8 +7,11 @@ Moreover, I published an article explaining in granular details every model pres
 
 ## **Articles**
 - AdaBoost: https://medium.com/stackademic/building-adaboost-from-scratch-in-python-18b79061fe01
+- Adam: https://medium.com/towards-data-science/the-math-behind-adam-optimizer-c41407efe59b
 - CART: https://medium.com/@cristianleo120/classification-and-regression-trees-cart-implementation-from-scratch-in-python-89efa31ad9a6
 - ID3 - Decision Tree: https://medium.com/@cristianleo120/master-decision-trees-and-building-them-from-scratch-in-python-af173dafb836
+- K-Means Clustering: https://medium.com/towards-data-science/the-math-and-code-behind-k-means-clustering-795582423666
+- KNN: https://medium.com/towards-data-science/the-math-behind-knn-3d34050efb71
 - Naive Bayes Classifier: https://medium.com/ai-in-plain-english/naive-bayes-classifier-achieving-100-accuracy-on-iris-dataset-d6df3e927096
 - Principal Component Analysis: https://medium.com/@cristianleo120/principal-component-analysis-pca-from-scratch-in-python-65998c681bc0
 - Random Forest: https://medium.com/@cristianleo120/building-random-forest-from-scratch-in-python-16d004982788
