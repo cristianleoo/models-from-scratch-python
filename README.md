@@ -60,6 +60,7 @@ Moreover, I published an article explaining in granular details every model pres
 - [KNN](https://medium.com/towards-data-science/the-math-behind-knn-3d34050efb71)
 - [Naive Bayes Classifier](https://medium.com/ai-in-plain-english/naive-bayes-classifier-achieving-100-accuracy-on-iris-dataset-d6df3e927096)
 - [Neural Networks](https://medium.com/towards-data-science/the-math-behind-neural-networks-a34a51b93873)
+- [Fine-Tuning Deep Neural Networks](https://medium.com/towards-data-science/the-math-behind-fine-tuning-deep-neural-networks-8138d548da69)
 - [Principal Component Analysis](https://medium.com/@cristianleo120/principal-component-analysis-pca-from-scratch-in-python-65998c681bc0)
 - [Random Forest](https://medium.com/@cristianleo120/building-random-forest-from-scratch-in-python-16d004982788)
 - [Stochastic Gradient Descent](https://medium.com/@cristianleo120/stochastic-gradient-descent-math-and-python-code-35b5e66d6f79)
