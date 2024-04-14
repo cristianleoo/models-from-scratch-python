@@ -10,3 +10,11 @@ Naive Bayes Classifier/nb_scratch.ipynb
 nb.ipynb
 id3.ipynb
 .DS_Store
+*.meta
+Deep CNN - AlexNet/data/cifar-10-batches-py/data_batch_1
+Deep CNN - AlexNet/data/cifar-10-batches-py/data_batch_2
+Deep CNN - AlexNet/data/cifar-10-batches-py/data_batch_3
+Deep CNN - AlexNet/data/cifar-10-batches-py/data_batch_4
+Deep CNN - AlexNet/data/cifar-10-batches-py/data_batch_5
+Deep CNN - AlexNet/data/cifar-10-batches-py/test_batch
+*.gz
