@@ -42,21 +42,15 @@ class EarlyStopping:
 
 class PlotManager:
     def __init__(self):
-        self.fig, self.ax = plt.subplots(1, 1, figsize=(10, 15))
+        self.fig, self.ax = plt.subplots(1, 1, figsize=(6, 4))
 
     def plot_losses(self, train_losses, val_losses):
-        self.ax[0].plot(train_losses, label='Training Loss')
-        self.ax[0].plot(val_losses, label='Validation Loss')
-        self.ax[0].set_title('Training and Validation Losses')
-        self.ax[0].set_xlabel('Epoch')
-        self.ax[0].set_ylabel('Loss')
-        self.ax[0].legend()
-
-    # def plot_gradients(self, gradients):
-    #     self.ax[1].plot(gradients)
-    #     self.ax[1].set_title('Gradients')
-    #     self.ax[1].set_xlabel('Step')
-    #     self.ax[1].set_ylabel('Gradient')
+        self.ax.plot(train_losses, label='Training Loss')
+        self.ax.plot(val_losses, label='Validation Loss')
+        self.ax.set_title('Training and Validation Losses')
+        self.ax.set_xlabel('Epoch')
+        self.ax.set_ylabel('Loss')
+        self.ax.legend()
 
     def show_plots(self):
         plt.tight_layout()
