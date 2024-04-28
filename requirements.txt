@@ -3,7 +3,11 @@ pandas
 scikit-learn
 scipy
 matplotlib
+platform
 seaborn
+torchvision
+torch
 prettytable
 optuna
 collections
+yfinance

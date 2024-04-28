@@ -18,3 +18,4 @@ Deep CNN - AlexNet/data/cifar-10-batches-py/data_batch_4
 Deep CNN - AlexNet/data/cifar-10-batches-py/data_batch_5
 Deep CNN - AlexNet/data/cifar-10-batches-py/test_batch
 *.gz
+*.pyc
