@@ -1,21 +1,16 @@
 
-Support Vector Classifiers/.DS_Store
-Support Vector Classifiers/.ipynb_checkpoints/svc-checkpoint.ipynb
-Naive Bayes Classifier/.DS_Store
-Naive Bayes Classifier/.ipynb_checkpoints/nb-checkpoint.ipynb
-Naive Bayes Classifier/.jupyter/desktop-workspaces/default-37a8.jupyterlab-workspace
-Naive Bayes Classifier/Naive Bayes Classifier.pdf
-Naive Bayes Classifier/nb.ipynb
-Naive Bayes Classifier/nb_scratch.ipynb
-nb.ipynb
-id3.ipynb
-.DS_Store
+*.DS_Store
+*.ipynb_checkpoints/
+*.jupyter/
+*.pdf
 *.meta
-Deep CNN - AlexNet/data/cifar-10-batches-py/data_batch_1
-Deep CNN - AlexNet/data/cifar-10-batches-py/data_batch_2
-Deep CNN - AlexNet/data/cifar-10-batches-py/data_batch_3
-Deep CNN - AlexNet/data/cifar-10-batches-py/data_batch_4
-Deep CNN - AlexNet/data/cifar-10-batches-py/data_batch_5
-Deep CNN - AlexNet/data/cifar-10-batches-py/test_batch
+Deep CNN - AlexNet/data/cifar-10-batches-py/
 *.gz
 *.pyc
+*.jpeg
+*.jpg
+*.png
+*.webp
+*.drawio
+*__pycache__/
+venv/

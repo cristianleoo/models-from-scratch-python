@@ -174,7 +174,6 @@ class TimeSeriesDataset:
         df = pd.read_csv('data/google.csv')
         df = df[(df['Date'] >= self.start_date) & (df['Date'] <= self.end_date)]
         df = df.sort_index()
-        df = df.loc[self.start_date:self.end_date]
         df = df[['Close']].astype(float)  # Use closing price
         df = self.MinMaxScaler(df.values)  # Convert DataFrame to numpy array
         train_size = int(len(df) * self.train_size)
