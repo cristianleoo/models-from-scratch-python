@@ -14,3 +14,4 @@ Deep CNN - AlexNet/data/cifar-10-batches-py/
 *.drawio
 *__pycache__/
 venv/
+*.crswap
