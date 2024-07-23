@@ -15,3 +15,5 @@ Deep CNN - AlexNet/data/cifar-10-batches-py/
 *__pycache__/
 venv/
 *.crswap
+*.pkl
+*.ubj
