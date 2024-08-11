@@ -17,3 +17,6 @@ venv/
 *.crswap
 *.pkl
 *.ubj
+GANDALF/lightning_logs/
+GANDALF/saved_models/
+*.pt_tmp
