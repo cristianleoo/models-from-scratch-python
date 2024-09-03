@@ -20,3 +20,4 @@ venv/
 GANDALF/lightning_logs/
 GANDALF/saved_models/
 *.pt_tmp
+*.pth
