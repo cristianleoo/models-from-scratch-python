@@ -1,0 +1,2 @@
+kddcup.data_10_percent_corrected filter=lfs diff=lfs merge=lfs -text
+TabTransformer/data/kddcup.data_10_percent_corrected filter=lfs diff=lfs merge=lfs -text
