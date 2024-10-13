@@ -22,3 +22,6 @@ GANDALF/saved_models/
 *.pt_tmp
 *.pth
 Vision Transformer/data/
+*.ckpt
+TabTransformer/lightning_logs/
+Graph Neural Networks/demo copy.ipynb
