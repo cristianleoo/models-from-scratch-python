@@ -28,3 +28,4 @@ Graph Neural Networks/demo copy.ipynb
 .env
 Embedding Finetuning/finetuned_model
 *.log
+*.safetensors

@@ -857,7 +857,7 @@ You can finetune this model on your own dataset.
 
 - `per_device_train_batch_size`: 16
 - `per_device_eval_batch_size`: 16
-- `num_train_epochs`: 1000
+- `num_train_epochs`: 1
 - `multi_dataset_batch_sampler`: round_robin
 
 #### All Hyperparameters
@@ -880,7 +880,7 @@ You can finetune this model on your own dataset.
 - `adam_beta2`: 0.999
 - `adam_epsilon`: 1e-08
 - `max_grad_norm`: 1
-- `num_train_epochs`: 1000
+- `num_train_epochs`: 1
 - `max_steps`: -1
 - `lr_scheduler_type`: linear
 - `lr_scheduler_kwargs`: {}
@@ -980,15 +980,6 @@ You can finetune this model on your own dataset.
 - `multi_dataset_batch_sampler`: round_robin
 
 </details>
-
-### Training Logs
-| Epoch  | Step | Training Loss |
-|:------:|:----:|:-------------:|
-| 250.0  | 500  | 1.2725        |
-| 500.0  | 1000 | 0.3229        |
-| 750.0  | 1500 | 0.0184        |
-| 1000.0 | 2000 | 0.0026        |
-
 
 ### Framework Versions
 - Python: 3.9.13
