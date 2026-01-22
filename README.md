@@ -52,26 +52,28 @@ In addition to the code, a series of articles have been published that provide d
 
 Here is a collection of articles detailing the theory and implementation of each model in this repository:
 
-- [AdaBoost](https://medium.com/stackademic/building-adaboost-from-scratch-in-python-18b79061fe01)
-- [Adam Optimizer](https://medium.com/towards-data-science/the-math-behind-adam-optimizer-c41407efe59b)
-- [Batch Normalization](https://towardsdatascience.com/the-math-behind-batch-normalization-90ebbc0b1b0b)
-- [CART (Classification and Regression Trees)](https://medium.com/@cristianleo120/classification-and-regression-trees-cart-implementation-from-scratch-in-python-89efa31ad9a6)
-- [Convolutional Neural Networks](https://towardsdatascience.com/the-math-behind-convolutional-neural-networks-6aed775df076)
-- [Deep CNN - AlexNet](https://towardsdatascience.com/the-math-behind-deep-cnn-alexnet-738d858e5a2f)
-- [ID3 - Decision Trees](https://medium.com/@cristianleo120/master-decision-trees-and-building-them-from-scratch-in-python-af173dafb836)
-- [K-Means Clustering](https://medium.com/towards-data-science/the-math-and-code-behind-k-means-clustering-795582423666)
-- [K-Nearest Neighbors (KNN)](https://medium.com/towards-data-science/the-math-behind-knn-3d34050efb71)
-- [LSTM (Long Short-Term Memory)](https://towardsdatascience.com/the-math-behind-lstm-9069b835289d)
-- [Nadam Optimizer](https://towardsdatascience.com/the-math-behind-nadam-optimizer-47dc1970d2cc)
-- [Naive Bayes Classifier](https://medium.com/ai-in-plain-english/naive-bayes-classifier-achieving-100-accuracy-on-iris-dataset-d6df3e927096)
-- [Neural Networks](https://medium.com/towards-data-science/the-math-behind-neural-networks-a34a51b93873)
-- [Fine-Tuning Deep Neural Networks](https://towardsdatascience.com/the-math-behind-fine-tuning-deep-neural-networks-8138d548da69)
-- [Principal Component Analysis (PCA)](https://medium.com/@cristianleo120/principal-component-analysis-pca-from-scratch-in-python-65998c681bc0)
-- [Random Forest](https://medium.com/@cristianleo120/building-random-forest-from-scratch-in-python-16d004982788)
-- [Recurrent Neural Networks](https://towardsdatascience.com/the-math-behind-recurrent-neural-networks-2de4e0098ab8)
-- [Stochastic Gradient Descent (SGD)](https://medium.com/@cristianleo120/stochastic-gradient-descent-math-and-python-code-35b5e66d6f79)
-- [Support Vector Classifier (SVC)](https://medium.com/ai-in-plain-english/support-vector-classifiers-svcs-a-comprehensive-guide-a9115a99a94f)
-- [XGBoost](https://medium.com/@cristianleo120/the-math-behind-xgboost-3068c78aad9d)
+| Model | Description | Article |
+| :--- | :--- | :--- |
+| **AdaBoost** | Adaptive Boosting ensemble method focusing on difficult samples. | [Read](https://medium.com/stackademic/building-adaboost-from-scratch-in-python-18b79061fe01) |
+| **Adam Optimizer** | Adaptive Moment Estimation optimization algorithm. | [Read](https://medium.com/towards-data-science/the-math-behind-adam-optimizer-c41407efe59b) |
+| **Batch Normalization** | Technique to improve training stability by normalizing layer inputs. | [Read](https://towardsdatascience.com/the-math-behind-batch-normalization-90ebbc0b1b0b) |
+| **CART** | Classification and Regression Trees for predictive modeling. | [Read](https://medium.com/@cristianleo120/classification-and-regression-trees-cart-implementation-from-scratch-in-python-89efa31ad9a6) |
+| **CNN** | Convolutional Neural Networks for processing grid-like data (images). | [Read](https://towardsdatascience.com/the-math-behind-convolutional-neural-networks-6aed775df076) |
+| **Deep CNN (AlexNet)** | Deep Convolutional Neural Network architecture. | [Read](https://towardsdatascience.com/the-math-behind-deep-cnn-alexnet-738d858e5a2f) |
+| **ID3 Decision Tree** | Iterative Dichotomiser 3 algorithm for decision tree construction. | [Read](https://medium.com/@cristianleo120/master-decision-trees-and-building-them-from-scratch-in-python-af173dafb836) |
+| **K-Means Clustering** | Unsupervised learning algorithm for partitioning data into k clusters. | [Read](https://medium.com/towards-data-science/the-math-and-code-behind-k-means-clustering-795582423666) |
+| **KNN** | K-Nearest Neighbors algorithm for classification and regression. | [Read](https://medium.com/towards-data-science/the-math-behind-knn-3d34050efb71) |
+| **LSTM** | Long Short-Term Memory networks for processing sequential data. | [Read](https://towardsdatascience.com/the-math-behind-lstm-9069b835289d) |
+| **Nadam Optimizer** | Nesterov-accelerated Adaptive Moment Estimation. | [Read](https://towardsdatascience.com/the-math-behind-nadam-optimizer-47dc1970d2cc) |
+| **Naive Bayes** | Probabilistic classifier based on applying Bayes' theorem. | [Read](https://medium.com/ai-in-plain-english/naive-bayes-classifier-achieving-100-accuracy-on-iris-dataset-d6df3e927096) |
+| **Neural Networks** | Foundational architecture of deep learning models. | [Read](https://medium.com/towards-data-science/the-math-behind-neural-networks-a34a51b93873) |
+| **Fine-Tuning DNNs** | Strategies for adapting pre-trained deep neural networks. | [Read](https://towardsdatascience.com/the-math-behind-fine-tuning-deep-neural-networks-8138d548da69) |
+| **PCA** | Dimensionality reduction using Principal Component Analysis. | [Read](https://medium.com/@cristianleo120/principal-component-analysis-pca-from-scratch-in-python-65998c681bc0) |
+| **Random Forest** | Ensemble learning method using multiple decision trees. | [Read](https://medium.com/@cristianleo120/building-random-forest-from-scratch-in-python-16d004982788) |
+| **RNN** | Recurrent Neural Networks for sequential data processing. | [Read](https://towardsdatascience.com/the-math-behind-recurrent-neural-networks-2de4e0098ab8) |
+| **SGD** | Stochastic Gradient Descent optimization algorithm. | [Read](https://medium.com/@cristianleo120/stochastic-gradient-descent-math-and-python-code-35b5e66d6f79) |
+| **SVC** | Support Vector Classifier for finding optimal hyperplanes. | [Read](https://medium.com/ai-in-plain-english/support-vector-classifiers-svcs-a-comprehensive-guide-a9115a99a94f) |
+| **XGBoost** | Optimized distributed gradient boosting library. | [Read](https://medium.com/@cristianleo120/the-math-behind-xgboost-3068c78aad9d) |
 
 ---
 
@@ -88,13 +90,32 @@ Ensure you have Python installed on your machine. You can install the necessary 
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/cristianleoo/models-from-scratch-python.git
+   cd models-from-scratch-python
    ```
 
-2. **Install required packages:**
-   Navigate to the project directory and install dependencies:
+2. **Create and Activate a Virtual Environment:**
+   It is recommended to use a virtual environment to manage dependencies.
+   ```sh
+   # Create virtual environment
+   python3 -m venv venv
+   
+   # Activate it (Mac/Linux)
+   source venv/bin/activate
+   # Or on Windows:
+   # venv\Scripts\activate
+   ```
+
+3. **Install required packages:**
    ```sh
    pip install -r requirements.txt
    ```
+
+4. **Register the Jupyter Kernel:**
+   To ensure your notebooks use the correct environment, register it as a kernel:
+   ```sh
+   python -m ipykernel install --user --name=models-from-scratch --display-name "Python (Models From Scratch)"
+   ```
+   Now, when you open a notebook, select **Python (Models From Scratch)** as your kernel.
 
 3. **(Optional) Run Tests:**
    Validate the setup by running the unit tests:
