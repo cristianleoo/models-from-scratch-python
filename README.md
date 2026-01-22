@@ -52,28 +52,62 @@ In addition to the code, a series of articles have been published that provide d
 
 Here is a collection of articles detailing the theory and implementation of each model in this repository:
 
+### 1. Classical Supervised Learning
+Foundational algorithms for classification and regression.
+
 | Model | Description | Article |
 | :--- | :--- | :--- |
-| **AdaBoost** | Adaptive Boosting ensemble method focusing on difficult samples. | [Read](https://medium.com/stackademic/building-adaboost-from-scratch-in-python-18b79061fe01) |
-| **Adam Optimizer** | Adaptive Moment Estimation optimization algorithm. | [Read](https://medium.com/towards-data-science/the-math-behind-adam-optimizer-c41407efe59b) |
-| **Batch Normalization** | Technique to improve training stability by normalizing layer inputs. | [Read](https://towardsdatascience.com/the-math-behind-batch-normalization-90ebbc0b1b0b) |
+| **KNN** | K-Nearest Neighbors algorithm for classification and regression. | [Read](https://medium.com/towards-data-science/the-math-behind-knn-3d34050efb71) |
+| **Naive Bayes** | Probabilistic classifier based on applying Bayes' theorem. | [Read](https://medium.com/ai-in-plain-english/naive-bayes-classifier-achieving-100-accuracy-on-iris-dataset-d6df3e927096) |
+| **ID3 Decision Tree** | Iterative Dichotomiser 3 algorithm for decision tree construction. | [Read](https://medium.com/@cristianleo120/master-decision-trees-and-building-them-from-scratch-in-python-af173dafb836) |
 | **CART** | Classification and Regression Trees for predictive modeling. | [Read](https://medium.com/@cristianleo120/classification-and-regression-trees-cart-implementation-from-scratch-in-python-89efa31ad9a6) |
+| **SVC** | Support Vector Classifier for finding optimal hyperplanes. | [Read](https://medium.com/ai-in-plain-english/support-vector-classifiers-svcs-a-comprehensive-guide-a9115a99a94f) |
+
+### 2. Ensemble Methods
+Powerful techniques combining multiple models.
+
+| Model | Description | Article |
+| :--- | :--- | :--- |
+| **Random Forest** | Ensemble learning method using multiple decision trees. | [Read](https://medium.com/@cristianleo120/building-random-forest-from-scratch-in-python-16d004982788) |
+| **AdaBoost** | Adaptive Boosting ensemble method focusing on difficult samples. | [Read](https://medium.com/stackademic/building-adaboost-from-scratch-in-python-18b79061fe01) |
+| **XGBoost** | Optimized distributed gradient boosting library. | [Read](https://medium.com/@cristianleo120/the-math-behind-xgboost-3068c78aad9d) |
+
+### 3. Unsupervised Learning
+Discovering hidden patterns in unlabeled data.
+
+| Model | Description | Article |
+| :--- | :--- | :--- |
+| **K-Means Clustering** | Unsupervised learning algorithm for partitioning data into k clusters. | [Read](https://medium.com/towards-data-science/the-math-and-code-behind-k-means-clustering-795582423666) |
+| **PCA** | Dimensionality reduction using Principal Component Analysis. | [Read](https://medium.com/@cristianleo120/principal-component-analysis-pca-from-scratch-in-python-65998c681bc0) |
+
+### 4. Optimization Algorithms
+The mathematical engines behind successful model training.
+
+| Model | Description | Article |
+| :--- | :--- | :--- |
+| **SGD** | Stochastic Gradient Descent optimization algorithm. | [Read](https://medium.com/@cristianleo120/stochastic-gradient-descent-math-and-python-code-35b5e66d6f79) |
+| **Adam Optimizer** | Adaptive Moment Estimation optimization algorithm. | [Read](https://medium.com/towards-data-science/the-math-behind-adam-optimizer-c41407efe59b) |
+| **Nadam Optimizer** | Nesterov-accelerated Adaptive Moment Estimation. | [Read](https://towardsdatascience.com/the-math-behind-nadam-optimizer-47dc1970d2cc) |
+
+### 5. Deep Learning Foundations
+The building blocks of modern AI.
+
+| Model | Description | Article |
+| :--- | :--- | :--- |
+| **Neural Networks** | Foundational architecture of deep learning models. | [Read](https://medium.com/towards-data-science/the-math-behind-neural-networks-a34a51b93873) |
+| **Batch Normalization** | Technique to improve training stability by normalizing layer inputs. | [Read](https://towardsdatascience.com/the-math-behind-batch-normalization-90ebbc0b1b0b) |
+| **Fine-Tuning DNNs** | Strategies for adapting pre-trained deep neural networks. | [Read](https://towardsdatascience.com/the-math-behind-fine-tuning-deep-neural-networks-8138d548da69) |
+
+### 6. Advanced Deep Learning Architectures
+Specialized architectures for vision, sequence, and recursive processing.
+
+| Model | Description | Article |
+| :--- | :--- | :--- |
 | **CNN** | Convolutional Neural Networks for processing grid-like data (images). | [Read](https://towardsdatascience.com/the-math-behind-convolutional-neural-networks-6aed775df076) |
 | **Deep CNN (AlexNet)** | Deep Convolutional Neural Network architecture. | [Read](https://towardsdatascience.com/the-math-behind-deep-cnn-alexnet-738d858e5a2f) |
-| **ID3 Decision Tree** | Iterative Dichotomiser 3 algorithm for decision tree construction. | [Read](https://medium.com/@cristianleo120/master-decision-trees-and-building-them-from-scratch-in-python-af173dafb836) |
-| **K-Means Clustering** | Unsupervised learning algorithm for partitioning data into k clusters. | [Read](https://medium.com/towards-data-science/the-math-and-code-behind-k-means-clustering-795582423666) |
-| **KNN** | K-Nearest Neighbors algorithm for classification and regression. | [Read](https://medium.com/towards-data-science/the-math-behind-knn-3d34050efb71) |
-| **LSTM** | Long Short-Term Memory networks for processing sequential data. | [Read](https://towardsdatascience.com/the-math-behind-lstm-9069b835289d) |
-| **Nadam Optimizer** | Nesterov-accelerated Adaptive Moment Estimation. | [Read](https://towardsdatascience.com/the-math-behind-nadam-optimizer-47dc1970d2cc) |
-| **Naive Bayes** | Probabilistic classifier based on applying Bayes' theorem. | [Read](https://medium.com/ai-in-plain-english/naive-bayes-classifier-achieving-100-accuracy-on-iris-dataset-d6df3e927096) |
-| **Neural Networks** | Foundational architecture of deep learning models. | [Read](https://medium.com/towards-data-science/the-math-behind-neural-networks-a34a51b93873) |
-| **Fine-Tuning DNNs** | Strategies for adapting pre-trained deep neural networks. | [Read](https://towardsdatascience.com/the-math-behind-fine-tuning-deep-neural-networks-8138d548da69) |
-| **PCA** | Dimensionality reduction using Principal Component Analysis. | [Read](https://medium.com/@cristianleo120/principal-component-analysis-pca-from-scratch-in-python-65998c681bc0) |
-| **Random Forest** | Ensemble learning method using multiple decision trees. | [Read](https://medium.com/@cristianleo120/building-random-forest-from-scratch-in-python-16d004982788) |
 | **RNN** | Recurrent Neural Networks for sequential data processing. | [Read](https://towardsdatascience.com/the-math-behind-recurrent-neural-networks-2de4e0098ab8) |
-| **SGD** | Stochastic Gradient Descent optimization algorithm. | [Read](https://medium.com/@cristianleo120/stochastic-gradient-descent-math-and-python-code-35b5e66d6f79) |
-| **SVC** | Support Vector Classifier for finding optimal hyperplanes. | [Read](https://medium.com/ai-in-plain-english/support-vector-classifiers-svcs-a-comprehensive-guide-a9115a99a94f) |
-| **XGBoost** | Optimized distributed gradient boosting library. | [Read](https://medium.com/@cristianleo120/the-math-behind-xgboost-3068c78aad9d) |
+| **LSTM** | Long Short-Term Memory networks for processing sequential data. | [Read](https://towardsdatascience.com/the-math-behind-lstm-9069b835289d) |
+| **Recursive Language Models**| Novel approach to maintain infinite context via recursion. | [Read](https://medium.com/@cristianleo120/recursive-language-models-the-end-of-context-rot-649fc51885ea) |
 
 ---
 
